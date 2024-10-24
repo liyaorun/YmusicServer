@@ -27,7 +27,7 @@ npm install
 ```
 cd musicApi
 node app.js
-cd ..
+
 cd musicServer
 node app.js
 ```
