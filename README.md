@@ -4,6 +4,8 @@
 
 这里使用的是[Binaryify/NeteaseCloudMusicApi: 网易云音乐 Node.js API service](https://github.com/Binaryify/NeteaseCloudMusicApi)的网易云api
 
+音乐源https://github.com/UnblockNeteaseMusic/server
+
 
 
 运行前在musicServer\db\connection.js配置数据库
