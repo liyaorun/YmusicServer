@@ -12,9 +12,9 @@ app.use(cors());
 app.use(express.json());
 
 // 配置API路由
-app.use('/sql', apiRouter);
+app.use('/api', apiRouter);
 
 // 启动服务器
 app.listen(port, () => {
-    console.log(`Server is running on http://localhost:${port}`);
+    console.log(`服务器已启动 http://localhost:${port}`);
 });
