@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'pf';
+  src: url('@/assets/fonts/pf.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Resource';
+  src: url('@/assets/fonts/ResourceHanRoundedCN-Bold.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'almm';
+  src: url('../src/assets/fonts/AlimamaFangYuanTi.woff2') format('woff2');
+  font-display: swap;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "almm";
+  overflow: hidden;
+}
+
+input, button {
+  font-family: "almm";
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.musicList-active {
+  background-color: #2ECC71;
+}
+
+
+.fade-enter-active,
+.fade-leave-active,
+.fadePlay-enter-active,
+.fadePlay-leave-active {
+  transition: all 0.4s ease-in-out;
+  will-change: opacity, transform;
+}
+
+.fadePlay-enter-active,
+.fadePlay-leave-active {
+  transition: all 0.35s ease-in-out;
+}
+
+.fade-enter-from,
+.fade-leave-to,
+.fadePlay-enter-from,
+.fadePlay-leave-to {
+  opacity: 0.1;
+}
+
+.fade-enter-to,
+.fade-leave-from,
+.fadePlay-enter-to,
+.fadePlay-leave-from {
+  opacity: 1;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  transform: translateX(100%);
+}
+
+.fade-enter-to,
+.fade-leave-from {
+  transform: translateX(0);
+}
+
+.fadePlay-enter-from,
+.fadePlay-leave-to {
+  transform: translateY(100%);
+}
+
+.fadePlay-enter-to,
+.fadePlay-leave-from {
+  transform: translateY(0);
+}

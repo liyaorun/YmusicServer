@@ -1,0 +1,23 @@
+@mixin flexCenter() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flexJustify($position) {
+    display: flex;
+    justify-content: $position;
+}
+
+@mixin textLineNum($num) {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: $num;
+    overflow: hidden;
+}
+
+@mixin respond-to() {
+    @media (max-width:480px) {
+        @content
+    }
+}
