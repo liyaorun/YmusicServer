@@ -33,7 +33,7 @@ export default defineConfig({
         rewrite: (path) => path.replace(/^\/wyyApi/, ''),
       },
       '/server': {
-        target: 'http://localhost:4000',
+        target: 'http://110.41.166.171:4000',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/server/, ''),
       },
